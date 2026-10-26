@@ -14,20 +14,20 @@ This repository documents an ongoing research series examining the security of s
 
 ## Research Areas
 
-| Area                                                                                                                     | Focus                                                                 | Status     |
-| :------------------------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------| :---------:|
-|01. [`plc-runtime-architecture/`](https://github.com/404saint/plc-security-research/tree/main/plc-runtime-architecture)   | PLC architecture, processes, files, and execution model baseline      | 🟢 Complete |
-|02. `plc-logic-execution/`                                                                                                | IEC 61131-3 logic, compilation, and runtime variable/scan-cycle state | 🟡 Up Next |
-|03. `plc-management-security/`                                                                                            | Management interfaces, APIs, authentication, and access control       | ⚪ Planned |
-|04. `plc-engineering-security/`                                                                                           | Engineering workflows, program deployment, and project integrity      | ⚪ Planned |
-|05. `plc-runtime-integrity/`                                                                                              | Runtime state, memory handling, and control execution integrity       | ⚪ Planned |
-|06. `plc-process-integrity/`                                                                                              | Control logic integrity and simulated process behavior                | ⚪ Planned |
-|07. `plc-platform-security/`                                                                                              | Host security, privileges, filesystems, and isolation                 | ⚪ Planned |
-|08. `plc-update-recovery/`                                                                                                | Update integrity, rollback, and recovery mechanisms                   | ⚪ Planned |
-|09. `plc-availability/`                                                                                                   | Runtime resilience, resource handling, and recovery behavior          | ⚪ Planned |
-|10. `plc-toolchain-security/`                                                                                             | Project parsing, configuration handling, and software testing         | ⚪ Planned |
-|11. `plc-detection-engineering/`                                                                                          | Security monitoring, change detection, and defensive validation       | ⚪ Planned |
-|12. `plc-comparative-validation/`                                                                                         | Reproducibility and cross-implementation security evaluation          | ⚪ Planned |
+| Area                                                                                                                    | Focus                                                                         | Status       |    
+| :---------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- | :----------: |
+| 01. [`plc-runtime-architecture/`](https://github.com/404saint/plc-security-research/tree/main/plc-runtime-architecture) | Target baseline, execution model, and potential attack surfaces               | 🟢 Complete  |
+| 02. `plc-program-compromise/`                                                                                           | Unauthorized logic modification, program replacement, and deployment abuse    | ⚪ Candidate |
+| 03. `plc-runtime-manipulation/`                                                                                         | Runtime state manipulation and control execution interference                 | ⚪ Candidate |
+| 04. `plc-management-compromise/`                                                                                        | Management interfaces, APIs, authentication, and access control               | ⚪ Candidate |
+| 05. `plc-process-deception/`                                                                                            | PLC state, HMI visibility, and simulated process discrepancies                | ⚪ Candidate |
+| 06. `plc-component-attacks/`                                                                                            | Runtime plugins, libraries, and internal communication                        | ⚪ Candidate |
+| 07. `plc-platform-isolation/`                                                                                           | Privilege abuse, filesystem access, and isolation boundaries                  | ⚪ Candidate |
+| 08. `plc-persistence-recovery/`                                                                                         | Persistence, update integrity, rollback, and recovery weaknesses              | ⚪ Candidate |
+| 09. `plc-availability-attacks/`                                                                                         | Execution disruption, resource exhaustion, and failure behavior               | ⚪ Candidate |
+| 10. `plc-detection-defense/`                                                                                            | Attack detection, defensive controls, and mitigation validation               | ⚪ Candidate |
+
+> Research areas are investigative directions, not a fixed sequence or a commitment to produce one investigation per area. New attack hypotheses may emerge as experiments progress.
 
 ## Research Methodology
 
