@@ -1,11 +1,5 @@
 # PLC Security Research
 
-![License](https://img.shields.io/badge/License-Apache--2.0-F5A623?style=flat-square&labelColor=242629)
-![Focus](https://img.shields.io/badge/Focus-PLC_Security-F5A623?style=flat-square&labelColor=242629)
-![Domain](https://img.shields.io/badge/Domain-ICS_%2F_OT-F5A623?style=flat-square&labelColor=242629)
-![Lab](https://img.shields.io/badge/Lab-Software--Only-F5A623?style=flat-square&labelColor=242629)
-![Method](https://img.shields.io/badge/Method-Evidence--Driven-F5A623?style=flat-square&labelColor=242629)
-
 > **Project status: Archived — October 2026**
 >
 > This repository preserves an earlier research effort focused on OpenPLC v4 runtime architecture and Linux-level implementation details.
